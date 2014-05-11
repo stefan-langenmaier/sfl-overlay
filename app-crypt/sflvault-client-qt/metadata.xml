@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+<herd>python</herd>
+<maintainer>
+	<email>stefan.langenmaier@savoirfairelinux.com</email>
+<description>I work for the company that develops the code for SFLvault and want to maintain the ebuild.</description>
+</maintainer>
+<longdescription>SFLvault is a Networked credentials store and authentication manager developed and maintained by Savoir-faire Linux.
+
+It has a client/vault (server) architecture allowing encrypted storage and organization of a multitude passwords for different machines and services.
+
+This is the qt gui for the client of the application.</longdescription>
+</pkgmetadata>
