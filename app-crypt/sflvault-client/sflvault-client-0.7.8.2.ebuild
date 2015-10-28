@@ -3,7 +3,7 @@
 # $Header: $
 EAPI=5
 
-PYTHON_COMPAT=( python{2_6,2_7} )
+PYTHON_COMPAT=( python2_7 )
 
 inherit eutils distutils-r1
 
@@ -25,7 +25,8 @@ IUSE=""
 RESTRICT=""
 
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]
-	=dev-libs/sflvault-common-0.7.8.1"
+	=dev-libs/sflvault-common-0.7.8.1
+	<dev-lang/python-2.7.10:2.7"
 RDEPEND="${DEPEND}
 	>=dev-python/pexpect-2.3
 	>=dev-python/urwid-0.9.8.1
